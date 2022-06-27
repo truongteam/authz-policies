@@ -1,6 +1,4 @@
 ---
-server:
-  httpListenAddr: "0.0.0.0:3592"
 storage:
   driver: "disk"
   disk:
