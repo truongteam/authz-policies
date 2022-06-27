@@ -1,7 +1,7 @@
 ---
 server:
-  httpListenAddr: "0.0.0.0:80"
+  httpListenAddr: "0.0.0.0:3592"
 storage:
   driver: "disk"
   disk:
-    directory: ./policies
+    directory: /tmp/authz/policies
