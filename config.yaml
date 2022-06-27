@@ -1,6 +1,6 @@
 ---
 server:
-  httpListenAddr: ":80"
+  httpListenAddr: "0.0.0.0:80"
 storage:
   driver: "disk"
   disk:
