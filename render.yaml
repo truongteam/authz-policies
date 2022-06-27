@@ -1,0 +1,6 @@
+services:
+- type: web
+  name: authz-policies
+  env: docker
+  repo: https://github.com/truongteam/authz-policies.git
+  plan: standard
