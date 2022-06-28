@@ -1,4 +1,9 @@
 ---
+server:
+  requestLimits:
+    maxActionsPerResource: 50
+    maxResourcesPerRequest: 50
+  playgroundEnabled: true
 storage:
   driver: "disk"
   disk:
