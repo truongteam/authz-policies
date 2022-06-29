@@ -4,6 +4,11 @@ server:
     maxActionsPerResource: 50
     maxResourcesPerRequest: 50
   playgroundEnabled: true
+  adminAPI:
+    enabled: true
+    adminCredentials:
+      username: dungth
+      passwordHash: JDJ5JDEwJDd6VExqY0ZZYm5NNC5GZTFETGNHQXVGNkF6ajNxQ05ZNWh2QlB5ZkFTRDNCL3J5S0JBYi5PCgo=
 storage:
   driver: "disk"
   disk:
