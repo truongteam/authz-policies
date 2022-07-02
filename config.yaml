@@ -1,8 +1,9 @@
 ---
 server:
-  cors:
-    allowedOrigins:
-      - localhost:3000
+  cors: # Optional
+    disabled: false
+    allowedOrigins: ['*']
+    allowedHeaders: []
   requestLimits:
     maxActionsPerResource: 50
     maxResourcesPerRequest: 50
