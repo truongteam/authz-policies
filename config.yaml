@@ -10,6 +10,11 @@ server:
       username: dungth
       passwordHash: JDJ5JDEwJDd6VExqY0ZZYm5NNC5GZTFETGNHQXVGNkF6ajNxQ05ZNWh2QlB5ZkFTRDNCL3J5S0JBYi5PCgo=
 storage:
-  driver: "disk"
-  disk:
-    directory: /tmp/authz/policies
+  driver: "postgres"
+  postgres:
+    url: "postgresql://postgres:KMa2V5JIu5ikfBiw4KyC@containers-us-west-46.railway.app:7677/railway?sslmode=disable&search_path=cerbos"
+    connPool:
+      maxLifeTime: 5m
+      maxIdleTime: 3m
+      maxOpen: 10
+      maxIdle: 5
