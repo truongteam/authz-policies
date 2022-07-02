@@ -2,7 +2,7 @@
 server:
   cors:
     allowedOrigins:
-      - localhost:3000
+      - http://localhost:3000
   requestLimits:
     maxActionsPerResource: 50
     maxResourcesPerRequest: 50
