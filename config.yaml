@@ -12,7 +12,7 @@ server:
 storage:
   driver: "postgres"
   postgres:
-    url: "postgresql://postgres:KMa2V5JIu5ikfBiw4KyC@containers-us-west-46.railway.app:7677/railway?sslmode=disable&search_path=cerbos"
+    url: "postgresql://cerbos_user:cerbos_pass@containers-us-west-46.railway.app:7677/railway?sslmode=disable&search_path=cerbos"
     connPool:
       maxLifeTime: 5m
       maxIdleTime: 3m
